@@ -38,3 +38,24 @@ footer{
     margin-top: 0;
     color: #22c55e;
 }
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+input, textarea {
+    padding: 10px;
+    border: 1px solid #334155;
+    border-radius: 6px;
+    font-size: inherit;
+}
+button {
+    background-color: #22c55e;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: fit-content;
+}
+button:hover {
+    background-color: #16a34a;
+}
