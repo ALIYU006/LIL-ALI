@@ -38,6 +38,18 @@ footer{
     margin-top: 0;
     color: #22c55e;
 }
+.skills-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    gap: 10px;
+}
+.skills-box {
+    background-color: #19f85c;
+    color:#09969b;
+    text-align: center;
+    padding: 15px;
+    border-radius: 10px;
+}
 form {
     display: flex;
     flex-direction: column;
